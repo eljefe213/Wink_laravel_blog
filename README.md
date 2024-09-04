@@ -32,7 +32,7 @@ This project is a simple blog built using **Laravel** with the **Wink** package,
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/eljefe213/Wink_laravel_blog.git
    cd your-repo-name
 
 2. **Install PHP dependencies:**:
