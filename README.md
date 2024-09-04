@@ -40,7 +40,38 @@ This project is a simple blog built using **Laravel** with the **Wink** package,
    composer install
 
 3. **Set up environment variables:**
+Copy the .env.example file to .env and update your environment-specific settings:
    ```bash
    cp .env.example .env
+
+Update the following details in the .env file with your database credentials and other configurations:
+    ```bash 
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=your_database_name
+    DB_USERNAME=your_database_user
+    DB_PASSWORD=your_database_password
+
+4. **Generate application key**
+Generate a unique key for your Laravel Application:
+    ```bash
+    php artisan key:generate
+
+5. **Run database migrations:**
+Run the following command to create the necessary tables in your database:
+    ```bash
+    php artisan migrate
+
+6. **Install wink:**
+   ```bash
+    composer require themsaid/wink
+    php artisan wink:install
+    php artisan storage:link
+    php artisan wink:migrate
+   
+
+
+   
    
 
