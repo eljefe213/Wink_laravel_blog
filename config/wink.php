@@ -64,7 +64,7 @@ return [
     |
     */
 
-    'middleware_group' => env('WINK_MIDDLEWARE_GROUP', 'web'),
+    'middleware_group' => 'web', 
 
     /*
     |--------------------------------------------------------------------------
