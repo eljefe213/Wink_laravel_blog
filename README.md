@@ -45,6 +45,7 @@ Copy the .env.example file to .env and update your environment-specific settings
    cp .env.example .env
 
 Update the following details in the .env file with your database credentials and other configurations:
+
     ```bash 
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
